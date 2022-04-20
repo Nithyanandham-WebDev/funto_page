@@ -1,0 +1,72 @@
+.home{
+    background-color: #000;
+    
+}
+.homecontainer {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+.homecontainer h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+.homecontainer p{
+    color: #8D8DAA;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.home_button{
+    background-color: #0d6efd;
+    color: #F7F5F2;
+    margin-top: 2rem;
+    padding: 0.75rem 1.25rem ;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 1.15rem;
+    
+}
+
+.home_button svg{
+    margin-right: 10px;
+    font-size: 0.85rem;
+}
+
+@media screen and (max-width:900px) {
+    .homecontainer h1{
+        font-size: 2rem;
+    }
+    .homecontainer p{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width:510px) {
+    .homecontainer h1{
+        font-size: 1.75rem;
+    }
+    .homecontainer p{
+        font-size: 0.95rem;
+    }
+    .home_button{
+        font-size: 1rem;
+        padding: 0.55rem 1.05rem ;
+    }
+}
+@media screen and (max-width:400px) {
+    .homecontainer h1{
+        font-size: 1.5rem;
+    }
+    .homecontainer p{
+        font-size: 0.85rem;
+    }
+    .home_button{
+        font-size: 0.85rem;
+        padding: 0.55rem 1.05rem ;
+    }
+}

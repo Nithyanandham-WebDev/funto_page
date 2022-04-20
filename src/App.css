@@ -1,0 +1,15 @@
+.live{
+  
+    display: flex;
+  
+    
+}
+@media screen and (max-width:900px){
+    .live{
+        flex-direction: column;
+    }    
+}
+.main{
+    background-color: #000;
+
+}

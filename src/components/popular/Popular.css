@@ -1,0 +1,85 @@
+.popular{
+    background-color: black;   
+}
+.popular_container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    margin-right: 10px;
+}
+/* .popular_cards{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    gap: 1rem;
+    grid-template-rows: 1fr;
+} */
+
+/* .popular_card{
+    height: 100px;
+} */
+.popular_cards{
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.popular_card{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.popular_card_left{
+    width: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+@media screen and (max-width:900px) {
+    .popular_card{
+        width: 100%;
+    }
+    
+}
+
+.popular_card_image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.popular_card_right .user,.popular_card_right .points{
+    display: flex;
+    align-items: center;
+}
+.pop_avatar{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.rank{
+    text-align: center;
+    background-color: #FD5D5D;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding:0.15rem 0.25rem;
+    color: #eee;
+    border-radius: 10px;
+}
+.code{
+    border: 1px solid #eee;
+    color: #40DFEF;
+    padding: 0.15em;
+    border-radius:5px ;
+    margin-right: 10px;
+}
+.place{
+    color: #eee;
+    font-weight: 900;
+}
+.points{
+    margin-top: 20px;
+}

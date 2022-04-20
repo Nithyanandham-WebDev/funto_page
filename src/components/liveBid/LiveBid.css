@@ -1,0 +1,259 @@
+.live_bid{
+    background-color: #000;
+    padding: 3rem 0;
+    width: 100%;
+}
+
+.live_bid_container{
+    width: 60%;
+    margin: 0px auto;
+}
+/* .live_bid_cards_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+} */
+
+h2{
+    margin: 0;
+}
+.live_bid_title{
+    color: #EEEEEE;
+    font-size: 2.25rem;
+    padding-top: 1rem;
+}
+.title{
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+@media screen and (max-width:500px) {
+    .title{
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+}
+.live_bid_title::before{
+    content: " ";
+    width: 8px;
+    height: 8px ;
+    background-color: red;
+    position: absolute;
+    left: -20px;
+    top: 35px;
+    border-radius: 50px;
+    transform: translateY(50%);
+
+}
+/*  */
+
+
+.live_bid_card{
+    /* max-width:20%; */
+    background-color: #143F6B;
+    padding: 1.25rem;
+    border-radius: 20px;
+}
+
+
+.live_bid_card_image{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.con{
+    position: relative;
+}
+.con-1{
+    width: 100%;
+    
+    position: absolute;
+    top: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.con-2{
+    margin-top: 170px;
+}
+
+.con-1 button{
+    margin-left: 15px;
+    background-color: #323232;
+    font-weight: 600;
+    color:#EEEEEE;
+    outline: none;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+}
+
+
+.show_property{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background-color: #0E185F;
+    padding: 0.35em 0.65rem;
+    color: #eee;
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 20px;
+    opacity: 0.9;
+
+}
+.show_property svg{
+    margin-right: 5px;
+}
+.show_property p{
+    display: flex;
+    align-items: center;
+}
+
+.dots{
+    margin-right:15px ;
+    color: #323232;
+    background-color: #EEEEEE;
+    padding: 0.45em;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.live_bid_rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #EEEEEE;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.live_bid_left{
+    display: flex;
+    align-items: center;
+    
+}
+.bag{
+    font-size: 12px;
+    margin-right: 6px;
+    
+}
+.live_bid_left p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.livebid_user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #eee;
+    opacity: 0.8;
+}
+.livebid_user_left{
+    display: flex;
+    align-items: center;
+}
+.livebid_userName{
+
+    margin-left: 10px;
+}
+.livebid_avatar{
+    font-size: 1.5rem;
+}
+
+h4,h5,p{
+    margin: 0;
+}
+
+.place_bid{
+    width: 100%;
+    padding: 0.75em;
+    border-radius: 25px;
+    background-color: #4D77FF;
+    color: #EEEEEE;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+}
+
+.live_bid_table{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    color: #eeee;
+    justify-content: space-evenly;
+    background-color: #143F6B;
+    padding: 0.75rem;
+    border-radius:10px;
+    opacity: 0.8;
+}
+.live_bid_table div{
+    text-align: center;
+}
+
+/* lives------ */
+.live_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:900px) {
+    .con-2{
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width:510px) {
+    .livebid_user_right p,.livebid_userName p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .livebid_user_right h4,.livebid_userName h4{
+        font-size: 16px;
+    }
+    .live_bid_container{
+        width: 80%;
+    }
+    .con-2{
+        margin-top: 270px;
+    }
+}
+@media screen and (max-width:410px) {
+    .livebid_user_right p,.livebid_userName p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .livebid_user_right h4,.livebid_userName h4{
+        font-size: 16px;
+    }
+    .live_bid_container{
+        width: 80%;
+    }
+    .con-2{
+        margin-top: 210px;
+    }
+}
+@media screen and (max-width:375px) {
+    .livebid_user_right p,.livebid_userName p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .livebid_user_right h4,.livebid_userName h4{
+        font-size: 16px;
+    }
+    .live_bid_container{
+        width: 80%;
+    }
+    .con-2{
+        margin-top: 190px;
+    }
+}
